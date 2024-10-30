@@ -29,16 +29,18 @@ The program rates the password as:
 ```cpp
 Enter a password to evaluate its strength: MyS3cur3Pass!
 Password strength: Very Strong
+```
 
 
 ## Language and Libraries
 * Language: C++
-* Libraries: Standard C++ libraries including <iostream>, <string>, and <cctype> for character checking functions.
+* Libraries: Standard C++ libraries including
+  `<iostream>`, `<string>`, and `<cctype>` for character checking functions.
   
 ## Benefits
 * Educational Tool: Great for beginners learning about password security principles.
-* Immediate Feedback: Provides users with a quick and clear understanding of how strong their passwords are.
-* C++ Practice: Useful for those practicing C++ programming, especially with strings and conditional logic.
+* Immediate Feedback: Provides users with a quick and clear understanding of their passwords' strength.
+* C++ Practice: Useful for those practising C++ programming, especially with strings and conditional logic.
 
 ## Limitations
 * Limited Special Characters: Only a predefined set of special characters is accepted.
