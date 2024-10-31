@@ -10,18 +10,18 @@ This is a simple C++ application that evaluates password strength based on sever
 ## How It Works
 1. Input: The user inputs a password they wish to evaluate.
 2. Checks: The program evaluates the password using five factors:
-  * Length of at least 8 characters
-* Contains uppercase letters
-* Contains lowercase letters
-* Contains digits
-* Contains special characters (from a predefined list)
+    * Length of at least 8 characters
+    * Contains uppercase letters
+    * Contains lowercase letters
+    * Contains digits
+    * Contains special characters (from a predefined list)
 3. Scoring: Each criterion is worth one point, with a maximum score of 5.
 4. Strength Evaluation: The program rates the password as:
-- `Very Weak` (score 0 or 1)
-- `Weak` (score 2)
-- `Moderate` (score 3)
-- `Strong` (score 4)
-- `Very Strong` (score 5)
+    - `Very Weak` (score 0 or 1)
+    - `Weak` (score 2)
+    - `Moderate` (score 3)
+    - `Strong` (score 4)
+    - `Very Strong` (score 5)
 ## Example Usage
 To evaluate a password, run the program and enter the password when prompted:
 The program rates the password as:
@@ -48,7 +48,6 @@ Password strength: Very Strong
 * No Real Encryption: This checker evaluates password strength but does not hash or secure passwords, making it unsuitable for production use.
 
 ## Future Improvements
-Consider adding features such as:
 * Dynamic special character recognition.
 * Incorporating entropy-based scoring for better accuracy.
 * Additional checks against common weak passwords or leaked password lists.
