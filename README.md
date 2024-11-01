@@ -1,4 +1,4 @@
-# Password_strength_Checker
+# Password_strength_Tester
 This is a simple C++ application that evaluates password strength based on several key security factors. Designed as part of a cybersecurity project, the program helps users understand the strength of their passwords by checking for various criteria such as length, uppercase letters, lowercase letters, digits, and special characters.
 
 ## Features
